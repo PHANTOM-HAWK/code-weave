@@ -1,0 +1,200 @@
+/* CSS for Home Component */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* White text for contrast */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homePageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.formWrapper {
+  background-color: #1e1e1e; /* Slightly lighter black for the form */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.formWrapper img {
+  margin-bottom: 20px;
+}
+
+.mainLabel {
+  font-size: 1.5em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputBox {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+.inputBox::placeholder {
+  color: #888;
+}
+
+.btn-join {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-join:hover {
+  background-color: #45a049;
+}
+
+.createInfo {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #bbbbbb;
+}
+
+.roomCreateBtn {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.roomCreateBtn:hover {
+  text-decoration: underline;
+}
+/* CSS for Name and Tagline */
+
+/* CSS for Name and Tagline */
+
+.nameOnForm {
+  font-size: 1.5em; /* Adjust font size as needed */
+  color: #ffffff; /* Text color */
+  margin-bottom: 10px; /* Spacing between the image and the text */
+}
+
+.tagLine {
+  font-size: 1em; /* Adjust font size as needed */
+  color: #cccccc; /* Text color */
+  margin-bottom: 20px; /* Spacing between the text and the input boxes */
+}
+
+/* Main wrapper to hold both sections */
+.mainWrapper {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 200vh;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Set the desired background color */
+  color: #fff; /* Ensure text color contrasts with the dark background */
+}
+
+/* Aside section styles */
+.aside {
+  width: 250px; /* Adjust as necessary */
+  background-color: #1e1e1e; /* Slightly lighter background for aside */
+  padding: 20px;
+  border-right: 1px solid #333; /* Adjust border color for contrast */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.asideInner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.logoImageAndTagLineOnEditor {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logoImageAndTagLineOnEditor img {
+  display: block;
+  margin: 0 auto;
+}
+
+.nameOnEditor {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #fff; /* Ensure text color contrasts with the dark background */
+}
+
+.tagLineOnEditor {
+  font-size: 14px;
+  color: #aaa; /* Lighten the text color for tagline */
+}
+
+.clientList {
+  margin-top: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.clientList > div {
+  margin-bottom: 10px;
+  color: #fff; /* Ensure text color contrasts with the dark background */
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff; /* Button text color */
+}
+
+.copyBtn {
+  background-color: #007bff;
+}
+
+.leaveBtn {
+  background-color: #dc3545;
+}
+
+/* Editor section styles */
+.editorWrap {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #1e1e1e; /* Match the aside background */
+  overflow-y: auto; /* Scroll if content overflows */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  color: #fff; /* Ensure text color contrasts with the dark background */
+}
